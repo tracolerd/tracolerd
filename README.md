@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Animated Waving Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2EAD33,50:1DB954,100:58A6FF&height=220&section=header&text=Hi%20There%2C%20I'm%20Nurul%20Faiyaz&fontSize=45&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2EAD33,50:1DB954,100:58A6FF&height=220&section=header&text=Hi%20There%2C%20I%27m%20Nurul%20Faiyaz&fontSize=45&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" alt="Header Banner" />
 </div>
 
 <div align="center">
@@ -16,7 +16,7 @@
 
 <p align="center">
   🎓 <b>CSE Undergraduate</b> at <b>East West University</b> | Major: <b>Intelligent Systems & Data Science</b><br>
-  🔍 Detail-oriented developer specializing in <b>Automated Testing</b>, <b>Cloud Security</b>, and <b>AI-Assisted Development</b>.<<br>
+  🔍 Detail-oriented developer specializing in <b>Automated Testing</b>, <b>Cloud Security</b>, and <b>AI-Assisted Development</b>.<br>
   💡 I leverage AI tools for rapid prototyping while maintaining a zero-tolerance policy for bugs.
 </p>
 
@@ -147,12 +147,12 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=2EAD33&icon_color=58A6FF&text_color=FFFFFF" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=2EAD33&icon_color=58A6FF&text_color=FFFFFF&cache_seconds=86400" height="165" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tracolerd&theme=radical&hide_border=true&background=0D1117&stroke=2EAD33&ring=58A6FF&fire=FF6B6B&currStreakLabel=2EAD33" height="165" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=2EAD33&text_color=FFFFFF" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=2EAD33&text_color=FFFFFF&cache_seconds=86400" height="150" alt="Top Languages" />
 </div>
 
 ---
@@ -160,7 +160,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tracolerd&theme=radical&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=tracolerd&theme=radical&no-frame=true&no-bg=true&margin-w=15&row=1&column=6&cache_seconds=86400" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -168,7 +168,7 @@
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tracolerd&theme=react-dark&hide_border=true&bg_color=0D1117&color=2EAD33&line=58A6FF&point=FF6B6B" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tracolerd&theme=react-dark&hide_border=true&bg_color=0D1117&color=2EAD33&line=58A6FF&point=FF6B6B&area=true" alt="Contribution Graph" />
 </div>
 
 ---
@@ -248,7 +248,7 @@
 
 | Degree | Institution | Status |
 |:------:|:-----------:|:------:|
-| 🎓 **B.Sc. in Computer Science & Engineering** | **East West University, Dhaka** | *Ongoing (Expected 2028)*<<br>Major: Intelligent Systems & Data Science |
+| 🎓 **B.Sc. in Computer Science & Engineering** | **East West University, Dhaka** | *Ongoing (Expected 2028)*<br>Major: Intelligent Systems & Data Science |
 | 📘 **Higher Secondary Certificate (HSC)** — 2022 | **Science Background** | **GPA: 5.00 / 5.00** |
 | 📗 **Secondary School Certificate (SSC)** — 2020 | **Science Background** | **GPA: 5.00 / 5.00** |
 
@@ -279,7 +279,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1DB954,100:2EAD33&height=120&section=footer&text=Let's%20Build%20Something%20Secure%20%26%20Bug-Free&fontSize=24&fontAlignY=65&animation=fadeIn&fontColor=ffffff" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1DB954,100:2EAD33&height=120&section=footer&text=Let%27s%20Build%20Something%20Secure%20and%20Bug-Free&fontSize=24&fontAlignY=65&animation=fadeIn&fontColor=ffffff" width="100%" alt="Footer Banner" />
 </div>
 
 <p align="center">
