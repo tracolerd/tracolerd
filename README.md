@@ -10,9 +10,10 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <a href="https://github.com/tracolerd">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Nurul+Faiyaz!;%E2%9A%A1+Building+Bug-Free+%26+Secure+Software;%F0%9F%9A%80+Turning+Ideas+Into+Reality+With+AI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=140&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Nurul+Faiyaz!;%E2%9A%A1+Building+Bug-Free+%26+Secure+Software;%F0%9F%9A%80+Turning+Ideas+Into+Reality+With+AI" alt="Typing SVG" />
   </a>
 </div>
+<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 🏷️ PROFILE BADGES ROW                                                    -->
@@ -63,41 +64,15 @@
 
 ## <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="30" /> &nbsp;About Me
 
-<table align="center">
-  <tr>
-    <td>
+> *"I leverage AI tools for rapid development and maintain a strong focus on bug-free software and efficient workflows."*
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=450&lines=%E2%9C%A8+Quick+Snapshot+About+Me" alt="About Me Title" />
-
-</div>
-
-<br/>
-
-🎓 &nbsp; **Education** — B.Sc. in CSE @ **East West University** *(Expected 2028)*
-
-🔬 &nbsp; **Major** — Intelligent Systems & Data Science
-
-🧪 &nbsp; **Focus Areas**
-
-&nbsp;&nbsp;&nbsp;&nbsp; `🛡️ Software Quality Assurance` &nbsp; `☁️ Cloud Security` &nbsp; `🤖 AI-Driven Development`
-
-🌍 &nbsp; **Location** — Dhaka, Bangladesh 🇧🇩
-
-🎯 &nbsp; **Mission** — Building bug-free, secure & intelligent software systems
-
-📊 &nbsp; **Academic Record**
-
-&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/HSC_2022-GPA_5.00%2F5.00-2ecc71?style=flat-square&labelColor=1a1b27" /> &nbsp; <img src="https://img.shields.io/badge/SSC_2020-GPA_5.00%2F5.00-2ecc71?style=flat-square&labelColor=1a1b27" /> &nbsp; <img src="https://img.shields.io/badge/Group-Science-58a6ff?style=flat-square&labelColor=1a1b27" />
-
-⚡ &nbsp; **Fun Fact** — I debug code faster with AI than most people write it! 🚀
-
-</td>
-  </tr>
-</table>
-
-<br/>
+- 🎓 **Education:** B.Sc. in CSE @ **East West University** *(Expected 2028)*
+- 🔬 **Major:** Intelligent Systems & Data Science
+- 🧪 **Focus Areas:** Software Quality Assurance, Cloud Security, AI-Driven Development
+- 🌍 **Location:** Dhaka, Bangladesh 🇧🇩
+- 🎯 **Mission:** Building bug-free, secure & intelligent software systems
+- 📊 **Academic Record:** HSC (GPA 5.00) | SSC (GPA 5.00) - Science Background
+- ⚡ **Fun Fact:** I debug code faster with AI than most people write it! 🚀
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
@@ -293,61 +268,12 @@
 
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;Targeted Roles & Expertise
 
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="140">
-      <img src="https://img.shields.io/badge/🧪_SQA-1a1b27?style=for-the-badge" /><br/>
-      <sub><b>Software Quality</b></sub>
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Senior_SQA_Engineer-58a6ff?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/QA_Manager-58a6ff?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/SDET_Officer-58a6ff?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Testing_Architect-58a6ff?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Team_Leader-58a6ff?style=flat-square&labelColor=1a1b27" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140">
-      <img src="https://img.shields.io/badge/🔐_Security-1a1b27?style=for-the-badge" /><br/>
-      <sub><b>Cloud Security</b></sub>
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Cloud_Security_Admin-2ecc71?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/SOC_Analyst-2ecc71?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Compliance_Officer-2ecc71?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/DevSecOps_Integrator-2ecc71?style=flat-square&labelColor=1a1b27" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140">
-      <img src="https://img.shields.io/badge/🤖_AI%2FRemote-1a1b27?style=for-the-badge" /><br/>
-      <sub><b>AI & Automation</b></sub>
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/Virtual_Assistant-f5c211?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/AI_Automation_Specialist-f5c211?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Data_Entry_Expert-f5c211?style=flat-square&labelColor=1a1b27" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140">
-      <img src="https://img.shields.io/badge/🏢_Domains-1a1b27?style=for-the-badge" /><br/>
-      <sub><b>Industry Focus</b></sub>
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/FinTech-e74c3c?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/ERP_Systems-e74c3c?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Healthcare-e74c3c?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Public_Sector-e74c3c?style=flat-square&labelColor=1a1b27" />
-      <img src="https://img.shields.io/badge/Enterprise-e74c3c?style=flat-square&labelColor=1a1b27" />
-    </td>
-  </tr>
-</table>
-
-</div>
+| 🏷️ Domain | 🎯 Roles |
+| :--- | :--- |
+| **🧪 Software Quality** | Senior SQA Engineer, QA Manager, SDET Officer, Testing Architect, Team Leader |
+| **🔐 Cloud Security** | Cloud Security Admin, SOC Analyst, Compliance Officer, DevSecOps Integrator |
+| **🤖 AI & Automation** | Virtual Assistant, AI Automation Specialist, Data Entry Expert |
+| **🏢 Industry Focus** | FinTech, ERP Systems, Healthcare, Public Sector, Enterprise |
 
 <br/>
 
@@ -362,21 +288,21 @@
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tracolerd&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&count_private=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="GitHub Streak" />
+  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <!-- GitHub Activity Graph -->
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=tracolerd&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true" alt="Contribution Graph" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=tracolerd&theme=react-dark&hide_border=true" alt="Contribution Graph" />
 </div>
 
 <br/>
@@ -392,7 +318,11 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tracolerd&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <!-- 
+  NOTE: The GitHub Trophies API is currently returning a 402 error (Vercel deployment disabled).
+  Uncomment the line below when the API is back online or you find an alternative instance.
+  -->
+  <!-- <img src="https://github-profile-trophy.vercel.app/?username=tracolerd&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" /> -->
 </div>
 
 <br/>
@@ -409,9 +339,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output/dist/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output/dist/github-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output/dist/github-snake.svg" />
   </picture>
 </div>
 
