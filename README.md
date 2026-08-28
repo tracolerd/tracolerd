@@ -221,6 +221,11 @@
 
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;Projects & Experience
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=900&color=8B949E&center=true&vCenter=true&width=600&lines=Shipping+real+tools%2C+not+just+demos;From+emergency+networks+to+AI+automation" alt="Projects tagline" />
+</div>
+<br/>
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -293,7 +298,7 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 📊 GITHUB STATS — FIXED URLs                                             -->
+<!-- 📊 GITHUB STATS — SELF-HOSTED STREAK, 3D CALENDAR & TROPHIES             -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
@@ -305,15 +310,49 @@
 
 <br/>
 
+<!--
+  ⚠️  WHY THE STREAK CARD & TROPHIES BELOW POINT AT "raw.githubusercontent.com":
+
+  streak-stats.demolab.com and github-profile-trophy.vercel.app are free, shared,
+  community-hosted services used by tens of thousands of profiles. As of this
+  update both are intermittently timing out / returning 402 (payment required) —
+  a known, recurring problem with those specific shared instances hitting their
+  hosting quota, not something wrong with this file. (github-readme-activity-graph.vercel.app
+  has the same problem, which is why the old "Contribution Graph" section below has
+  been replaced with a self-hosted 3D calendar instead.)
+
+  FIX APPLIED: generate the SVGs ourselves with GitHub Actions (same idea as the
+  Snake animation further down) so nothing here depends on someone else's free-tier
+  quota ever again.
+
+  HOW TO ENABLE:
+  STEP 1 — Add the workflow file: .github/workflows/profile-widgets.yml
+  STEP 2 — Add the config file:   conf/github-profile-3d-contrib.json
+           (both files are provided alongside this README)
+  STEP 3 — Settings > Actions > General > enable "Read and write permissions"
+           (skip if already enabled — it's the same setting the Snake workflow uses)
+  STEP 4 — Actions tab > "Generate Profile Widgets" > Run workflow (first run only;
+           after that it refreshes automatically every 12 hours)
+-->
 <div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img width="70%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-streak-stats.svg" alt="GitHub Streak" />
 </div>
 
 <br/>
 
-<!-- GitHub Activity Graph -->
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=tracolerd&theme=react-dark&hide_border=true" alt="Contribution Graph" />
+  <h3>🗓️ Animated 3D Contribution Calendar</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/night.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
+    <img alt="Animated 3D GitHub contribution calendar" width="95%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=radical&hide_border=true" alt="GitHub Streak (live, fallback)" />
 </div>
 
 <br/>
@@ -323,17 +362,13 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 🏆 GITHUB TROPHIES — FIXED                                               -->
+<!-- 🏆 GITHUB TROPHIES — SELF-HOSTED                                         -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <!-- 
-  NOTE: The GitHub Trophies API is currently returning a 402 error (Vercel deployment disabled).
-  Uncomment the line below when the API is back online or you find an alternative instance.
-  -->
-  <!-- <img src="https://github-profile-trophy.vercel.app/?username=tracolerd&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" /> -->
+  <img src="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-trophies.svg" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -343,7 +378,7 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 🐍 SNAKE CONTRIBUTION GRAPH — FIXED WITH GITHUB ACTIONS SETUP           -->
+<!-- 🐍 SNAKE CONTRIBUTION GRAPH — GITHUB ACTIONS SETUP                       -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 ## 🐍 Contribution Snake
