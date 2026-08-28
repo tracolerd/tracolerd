@@ -1,0 +1,89 @@
+# Place this file at: .github/workflows/profile-widgets.yml
+#
+# Self-hosts three widgets that were depending on flaky free/shared services:
+#   1. GitHub Streak stats   -> pushed to the "output" branch (same branch the Snake uses)
+#   2. GitHub Trophies       -> pushed to the "output" branch
+#   3. Animated 3D contribution calendar -> pushed to the "output-3d-contrib" branch
+#      (kept in its own branch so the SVG dump doesn't clutter the "output" branch)
+#
+# One-time setup:
+#   1. Add this file at .github/workflows/profile-widgets.yml
+#   2. Add conf/github-profile-3d-contrib.json (provided alongside this file)
+#   3. Settings > Actions > General > "Read and write permissions" (skip if the
+#      Snake workflow already has this enabled — it's the same setting)
+#   4. Actions tab > "Generate Profile Widgets" > Run workflow (first run only)
+#
+# After the first manual run, it refreshes automatically every 12 hours.
+
+name: Generate Profile Widgets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  # ── Streak stats + Trophies -> "output" branch ──────────────────────────
+  widgets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate Streak Stats
+        uses: muhammad-fiaz/github-readme-streak-stats@v1.0.1
+        with:
+          USERNAME: tracolerd
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          THEME: radical
+          OUTPUT_PATH: dist/github-streak-stats.svg
+
+      - name: Generate Trophies
+        # NOTE: this points at the project's "generate-svg" feature branch since
+        # that's what the project currently documents for self-hosting. If this
+        # ref stops resolving, check github.com/Erik-Donath/github-profile-trophy
+        # for the current recommended ref/tag.
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: tracolerd
+          output_path: dist/github-trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push widgets to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update streak stats & trophies"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ── Animated 3D contribution calendar -> "output-3d-contrib" branch ─────
+  contrib-3d:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: tracolerd
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+
+      - name: Push 3D graph to output-3d-contrib branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output-3d-contrib
+          build_dir: profile-3d-contrib
+          commit_message: "Update 3D contribution calendar"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
