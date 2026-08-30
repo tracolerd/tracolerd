@@ -9,6 +9,11 @@ on:
       - main
 
 jobs:
+  # Streak stats + Trophies -> "output-widgets" branch.
+  # NOTE: this is a DIFFERENT branch than Snake's "output" branch on purpose.
+  # crazy-max/ghaction-github-pages replaces the target branch's content with
+  # whatever is in build_dir on every run — if this job and the Snake workflow
+  # both pushed to "output", each would wipe out the other's SVG files.
   widgets:
     runs-on: ubuntu-latest
     permissions:
@@ -26,6 +31,10 @@ jobs:
           OUTPUT_PATH: dist/github-streak-stats.svg
 
       - name: Generate Trophies
+        # continue-on-error: this action lives on an actively-changing dev
+        # branch and has broken before. If it fails, we still want the Streak
+        # Stats file (generated above) to get pushed in the step below.
+        continue-on-error: true
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: tracolerd
@@ -33,15 +42,17 @@ jobs:
           theme: radical
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push widgets to output branch
+      - name: Push widgets to output-widgets branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: output-widgets
           build_dir: dist
           commit_message: "Update streak stats & trophies"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  # Animated 3D contribution calendar -> its own "output-3d-contrib" branch
+  # (already isolated from the other two, no change needed here).
   contrib-3d:
     runs-on: ubuntu-latest
     permissions:
