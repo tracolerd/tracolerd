@@ -1,0 +1,67 @@
+name: Generate Profile Widgets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  widgets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate Streak Stats
+        uses: muhammad-fiaz/github-readme-streak-stats@v1.0.1
+        with:
+          USERNAME: tracolerd
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          THEME: radical
+          OUTPUT_PATH: dist/github-streak-stats.svg
+
+      - name: Generate Trophies
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: tracolerd
+          file: dist/github-trophies.svg
+          theme: radical
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push widgets to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update streak stats & trophies"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  contrib-3d:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: tracolerd
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+
+      - name: Push 3D graph to output-3d-contrib branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output-3d-contrib
+          build_dir: profile-3d-contrib
+          commit_message: "Update 3D contribution calendar"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
