@@ -335,7 +335,7 @@
            after that it refreshes automatically every 12 hours)
 -->
 <div align="center">
-  <img width="70%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-streak-stats.svg" alt="GitHub Streak" />
+  <img width="70%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-widgets/github-streak-stats.svg" alt="GitHub Streak" />
 </div>
 
 <br/>
@@ -368,7 +368,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tracolerd/tracolerd/output/github-trophies.svg" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-widgets/github-trophies.svg" alt="GitHub Trophies" />
 </div>
 
 <br/>
