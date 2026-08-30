@@ -51,7 +51,8 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: tracolerd
-          output_path: dist/github-trophies.svg
+          file: dist/github-trophies.svg
+          theme: radical
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push widgets to output branch
