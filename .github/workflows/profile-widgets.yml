@@ -40,7 +40,11 @@ jobs:
           username: tracolerd
           file: dist/github-trophies.svg
           theme: radical
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Needs a Personal Access Token with "read:user" scope — the
+          # default GITHUB_TOKEN can't read general profile info (followers,
+          # stars, etc.), which is why this step was failing with
+          # "Failed to fetch user info". Add TROPHY_PAT as a repo secret.
+          token: ${{ secrets.TROPHY_PAT }}
 
       - name: Push widgets to output-widgets branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
