@@ -1,3 +1,12 @@
+---
+
+<div align="center">
+  <p>If you find <b>ThreatLens-AI</b> useful, consider supporting its development:</p>
+  <a href="https://buymeacoffee.com/tsensei" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="210">
+  </a>
+</div>
+
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 🎨 ANIMATED WAVING HEADER BANNER                                         -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
