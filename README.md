@@ -313,8 +313,8 @@
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img width="70%" src="https://github-readme-stats.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img width="70%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
@@ -344,24 +344,12 @@
            after that it refreshes automatically every 12 hours)
 -->
 <div align="center">
-  <img width="70%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-widgets/github-streak-stats.svg" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
   <h3>🗓️ Animated 3D Contribution Calendar</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/night.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
     <img alt="Animated 3D GitHub contribution calendar" width="95%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
   </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=radical&hide_border=true" alt="GitHub Streak (live, fallback)" />
 </div>
 
 <br/>
