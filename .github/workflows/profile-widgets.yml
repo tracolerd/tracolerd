@@ -2,7 +2,11 @@ name: Generate Profile Widgets
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    # Was every 12h ("0 */12 * * *") — that's why the 3D calendar looked
+    # stale for long stretches. Bumped to every 4h (6 runs/day) for both
+    # jobs below, since the underlying actions are cheap and GitHub Actions
+    # minutes are unlimited on standard runners for public repos.
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   push:
     branches:
