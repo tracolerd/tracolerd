@@ -303,16 +303,16 @@
 
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
 
-<p align="center"><i>📊 আমার কোডিং অ্যাক্টিভিটি, কনসিসটেন্সি আর ল্যাঙ্গুয়েজ ফুটপ্রিন্টের এক ঝলক</i></p>
+<p align="center"><i>📊 A snapshot of my coding activity, consistency, and language footprint</i></p>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img width="65%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="90%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img width="65%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
@@ -328,15 +328,17 @@
   has the same problem, which is why the old "Contribution Graph" section was
   replaced with the self-hosted 3D calendar below instead.)
 
-  UPDATE: The GitHub Streak card (Total Contributions / Current Streak / Longest
-  Streak) has been removed entirely from this section, since the 3D Contribution
-  Calendar below already covers the same contribution data — no need to show it
-  twice. The Trophies section further down still uses a self-hosted SVG for the
-  same reliability reason.
+  UPDATE: The self-hosted GitHub Streak card (github-streak-stats.svg) that used
+  to sit right here, right after the two cards above, has been removed — the
+  live streak-stats.demolab.com card further down (right after the 3D
+  Contribution Calendar) already shows the same Total Contributions / Current
+  Streak / Longest Streak data, so no need to show it twice. That live card and
+  the entire 3D Calendar section below are untouched. The Trophies section
+  further down still uses a self-hosted SVG for the same reliability reason.
 
-  FIX APPLIED: generate the SVGs ourselves with GitHub Actions (same idea as the
-  Snake animation further down) so nothing here depends on someone else's free-tier
-  quota ever again.
+  FIX APPLIED (Trophies only): generate the SVG ourselves with GitHub Actions
+  (same idea as the Snake animation further down) so it doesn't depend on
+  someone else's free-tier quota.
 
   HOW TO ENABLE:
   STEP 1 — Add the workflow file: .github/workflows/profile-widgets.yml
@@ -345,7 +347,7 @@
   STEP 3 — Settings > Actions > General > enable "Read and write permissions"
            (skip if already enabled — it's the same setting the Snake workflow uses)
   STEP 4 — Actions tab > "Generate Profile Widgets" > Run workflow (first run only;
-           after that it refreshes automatically every 12 hours)
+           after that it refreshes automatically every few hours)
 -->
 
 <div align="center">
@@ -353,10 +355,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/night.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
-    <img alt="Animated 3D GitHub contribution calendar" width="100%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
+    <img alt="Animated 3D GitHub contribution calendar" width="95%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
   </picture>
-  <br/>
-  <sub>⏱️ প্রতি ১২ ঘণ্টা পরপর GitHub Actions দিয়ে অটোমেটিক রিফ্রেশ হয় — সর্বশেষ রান দেখতে <a href="https://github.com/tracolerd/tracolerd/actions">Actions ট্যাব</a> চেক করো</sub>
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=radical&hide_border=true" alt="GitHub Streak (live, fallback)" />
 </div>
 
 <br/>
