@@ -1,4 +1,3 @@
-
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 🎨 ANIMATED WAVING HEADER BANNER                                         -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
@@ -299,28 +298,41 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 📊 GITHUB STATS — SELF-HOSTED STREAK, 3D CALENDAR & TROPHIES             -->
+<!-- 📊 GITHUB STATS — SELF-HOSTED 3D CALENDAR                                -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> &nbsp;GitHub Analytics
 
+<p align="center"><i>📊 আমার কোডিং অ্যাক্টিভিটি, কনসিসটেন্সি আর ল্যাঙ্গুয়েজ ফুটপ্রিন্টের এক ঝলক</i></p>
+
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img width="90%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=tracolerd&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="90%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=tracolerd&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
 
 <!--
-  ⚠️  WHY THE STREAK CARD & TROPHIES BELOW POINT AT "raw.githubusercontent.com":
+  ⚠️  A NOTE ON THE SELF-HOSTED WIDGETS BELOW & IN THE TROPHIES SECTION:
 
   streak-stats.demolab.com and github-profile-trophy.vercel.app are free, shared,
-  community-hosted services used by tens of thousands of profiles. As of this
-  update both are intermittently timing out / returning 402 (payment required) —
-  a known, recurring problem with those specific shared instances hitting their
-  hosting quota, not something wrong with this file. (github-readme-activity-graph.vercel.app
-  has the same problem, which is why the old "Contribution Graph" section below has
-  been replaced with a self-hosted 3D calendar instead.)
+  community-hosted services used by tens of thousands of profiles and are
+  intermittently timing out / returning 402 (payment required) — a known,
+  recurring problem with those specific shared instances hitting their hosting
+  quota, not something wrong with this file. (github-readme-activity-graph.vercel.app
+  has the same problem, which is why the old "Contribution Graph" section was
+  replaced with the self-hosted 3D calendar below instead.)
+
+  UPDATE: The GitHub Streak card (Total Contributions / Current Streak / Longest
+  Streak) has been removed entirely from this section, since the 3D Contribution
+  Calendar below already covers the same contribution data — no need to show it
+  twice. The Trophies section further down still uses a self-hosted SVG for the
+  same reliability reason.
 
   FIX APPLIED: generate the SVGs ourselves with GitHub Actions (same idea as the
   Snake animation further down) so nothing here depends on someone else's free-tier
@@ -335,25 +347,16 @@
   STEP 4 — Actions tab > "Generate Profile Widgets" > Run workflow (first run only;
            after that it refreshes automatically every 12 hours)
 -->
-<div align="center">
-  <img width="70%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-widgets/github-streak-stats.svg" alt="GitHub Streak" />
-</div>
-
-<br/>
 
 <div align="center">
   <h3>🗓️ Animated 3D Contribution Calendar</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/night.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
-    <img alt="Animated 3D GitHub contribution calendar" width="95%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
+    <img alt="Animated 3D GitHub contribution calendar" width="100%" src="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
   </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=tracolerd&theme=radical&hide_border=true" alt="GitHub Streak (live, fallback)" />
+  <br/>
+  <sub>⏱️ প্রতি ১২ ঘণ্টা পরপর GitHub Actions দিয়ে অটোমেটিক রিফ্রেশ হয় — সর্বশেষ রান দেখতে <a href="https://github.com/tracolerd/tracolerd/actions">Actions ট্যাব</a> চেক করো</sub>
 </div>
 
 <br/>
