@@ -72,8 +72,13 @@ jobs:
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # CHANGED: use the personal access token (repo + read:user) instead
+          # of the default GITHUB_TOKEN. The default token can't see all repos,
+          # which made the language donut inaccurate. MAX_REPOS raises the
+          # number of repos the action scans (default is lower).
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
           USERNAME: tracolerd
+          MAX_REPOS: 300
           SETTING_JSON: conf/github-profile-3d-contrib.json
 
       - name: Push 3D graph to output-3d-contrib branch
