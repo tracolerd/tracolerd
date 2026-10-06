@@ -315,7 +315,7 @@
 
 <div align="center">
   <h3>Animated 3D Contribution Calendar</h3>
-  <p><i>A year of coding activity, visualized in 3D. The language cards above are kept separate from this calendar.</i></p>
+  <p><i>A year of coding activity, visualized in 3D.</i></p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/night.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tracolerd/tracolerd/output-3d-contrib/day.svg" />
