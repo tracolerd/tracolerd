@@ -280,7 +280,7 @@ I prioritize roles whose experience requirements match my current level and whos
 
 | Level | Details |
 | :--- | :--- |
-| **University** | **B.Sc. in Computer Science & Engineering** — East West University, Dhaka<br/>*Major: Intelligent Systems & Data Science* \| Expected Graduation: 2028 |
+| **University** | **B.Sc. in Computer Science & Engineering** — East West University, Dhaka<br/>*Major: Intelligent Systems & Data Science* \| Expected Graduation: 2028<br/>*Current CGPA: 3.67/4.00* |
 | **School and College** | **HSC (2022)** — GPA: 5.00/5.00 (Science)<br/>**SSC (2020)** — GPA: 5.00/5.00 (Science) |
 
 <br/>
