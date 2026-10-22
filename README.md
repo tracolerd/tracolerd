@@ -4,7 +4,7 @@
 </div>
 
 <!-- Tagline (plain text so it wraps cleanly on mobile, tablet and PC) -->
-<h3 align="center">A Full Stack Developer | Building Security Tools, Automation Scripts &amp; AI-Integrated Apps</h3>
+<h3 align="center">QA Automation &amp; API Testing | Python | LLM Application Security | Full-Stack Projects</h3>
 
 <!-- Animated typing intro -->
 <div align="center">
@@ -72,190 +72,68 @@
 
 <h2 align="center">About Me</h2>
 
-> *"I leverage AI tools for rapid development and maintain a strong focus on bug-free software and efficient workflows."*
+I am a **B.Sc. Computer Science and Engineering student at East West University**, based in Dhaka, Bangladesh. My current focus is software quality assurance, API testing, test automation, and security evaluation for web and LLM-enabled applications.
 
-- **Education:** B.Sc. in CSE @ **East West University** *(Expected 2028)*
-- **Major:** Intelligent Systems & Data Science
-- **Focus Areas:** Software Quality Assurance, Cloud Security, AI-Driven Development
-- **Location:** Dhaka, Bangladesh
-- **Mission:** Building bug-free, secure & intelligent software systems
-- **Academic Record:** HSC (GPA 5.00) | SSC (GPA 5.00) - Science Background
-- **Fun Fact:** I debug code faster with AI than most people write it!
+- **Education:** B.Sc. in CSE, East West University | Expected 2028
+- **Major:** Intelligent Systems &amp; Data Science
+- **Current CGPA:** 3.67 / 4.00
+- **Primary focus:** QA automation, API and contract testing, Python-based tooling, application security, and LLM evaluation
+- **Work preference:** Junior and contract opportunities, including remote roles that explicitly allow international applicants working from Bangladesh
+- **Approach:** Build small, inspectable tools; document test evidence; distinguish implemented capabilities from planned work
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="280" alt="Tech Enthusiast Coding GIF" />
-</div>
+My repositories are portfolio projects and prototypes, not claims of production deployment. Each project's README describes its current scope, how to run it, and relevant limitations.
 
 <br/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Section divider" />
 </div>
 
-<h2 align="center">Tech Stack</h2>
+<h2 align="center">Technical Focus</h2>
 
-<table>
-  <tr>
-    <td width="150" valign="top"><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-21262d?style=flat-square&logo=python&logoColor=58a6ff" alt="Python" />
-      <img src="https://img.shields.io/badge/Java-21262d?style=flat-square&logo=openjdk&logoColor=58a6ff" alt="Java" />
-      <img src="https://img.shields.io/badge/Go-21262d?style=flat-square&logo=go&logoColor=58a6ff" alt="Go" />
-      <img src="https://img.shields.io/badge/C-21262d?style=flat-square&logo=c&logoColor=58a6ff" alt="C" />
-      <img src="https://img.shields.io/badge/C%2B%2B-21262d?style=flat-square&logo=cplusplus&logoColor=58a6ff" alt="C++" />
-      <img src="https://img.shields.io/badge/C%23-21262d?style=flat-square&logo=csharp&logoColor=58a6ff" alt="C#" />
-      <img src="https://img.shields.io/badge/Kotlin-21262d?style=flat-square&logo=kotlin&logoColor=58a6ff" alt="Kotlin" />
-      <img src="https://img.shields.io/badge/PHP-21262d?style=flat-square&logo=php&logoColor=58a6ff" alt="PHP" />
-      <img src="https://img.shields.io/badge/JavaScript-21262d?style=flat-square&logo=javascript&logoColor=58a6ff" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-21262d?style=flat-square&logo=typescript&logoColor=58a6ff" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/SQL-21262d?style=flat-square&logo=postgresql&logoColor=58a6ff" alt="SQL" />
-    </td>
-  </tr>
-  <tr>
-    <td width="150" valign="top"><b>Frontend and Mobile</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/HTML5-21262d?style=flat-square&logo=html5&logoColor=58a6ff" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-21262d?style=flat-square&logo=css3&logoColor=58a6ff" alt="CSS3" />
-      <img src="https://img.shields.io/badge/Tailwind%20CSS-21262d?style=flat-square&logo=tailwindcss&logoColor=58a6ff" alt="Tailwind CSS" />
-      <img src="https://img.shields.io/badge/Bootstrap-21262d?style=flat-square&logo=bootstrap&logoColor=58a6ff" alt="Bootstrap" />
-      <img src="https://img.shields.io/badge/React.js-21262d?style=flat-square&logo=react&logoColor=58a6ff" alt="React.js" />
-      <img src="https://img.shields.io/badge/Vue.js-21262d?style=flat-square&logo=vuedotjs&logoColor=58a6ff" alt="Vue.js" />
-      <img src="https://img.shields.io/badge/Angular-21262d?style=flat-square&logo=angular&logoColor=58a6ff" alt="Angular" />
-      <img src="https://img.shields.io/badge/React%20Native-21262d?style=flat-square&logo=react&logoColor=58a6ff" alt="React Native" />
-      <img src="https://img.shields.io/badge/Android%20SDK-21262d?style=flat-square&logo=android&logoColor=58a6ff" alt="Android SDK" />
-      <img src="https://img.shields.io/badge/Redux%20Toolkit-21262d?style=flat-square&logo=redux&logoColor=58a6ff" alt="Redux Toolkit" />
-      <img src="https://img.shields.io/badge/Context%20API-21262d?style=flat-square&logo=react&logoColor=58a6ff" alt="Context API" />
-      <img src="https://img.shields.io/badge/Zustand-21262d?style=flat-square" alt="Zustand" />
-      <img src="https://img.shields.io/badge/Three.js-21262d?style=flat-square&logo=threedotjs&logoColor=58a6ff" alt="Three.js" />
-      <img src="https://img.shields.io/badge/Framer%20Motion-21262d?style=flat-square&logo=framer&logoColor=58a6ff" alt="Framer Motion" />
-      <img src="https://img.shields.io/badge/NPM-21262d?style=flat-square&logo=npm&logoColor=58a6ff" alt="NPM" />
-      <img src="https://img.shields.io/badge/Yarn-21262d?style=flat-square&logo=yarn&logoColor=58a6ff" alt="Yarn" />
-      <img src="https://img.shields.io/badge/Vite-21262d?style=flat-square&logo=vite&logoColor=58a6ff" alt="Vite" />
-      <img src="https://img.shields.io/badge/Webpack-21262d?style=flat-square&logo=webpack&logoColor=58a6ff" alt="Webpack" />
-    </td>
-  </tr>
-  <tr>
-    <td width="150" valign="top"><b>AI, LLM and Automation</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/OpenAI%20API-21262d?style=flat-square&logo=openai&logoColor=58a6ff" alt="OpenAI API" />
-      <img src="https://img.shields.io/badge/ChatGPT-21262d?style=flat-square&logo=openai&logoColor=58a6ff" alt="ChatGPT" />
-      <img src="https://img.shields.io/badge/Codex-21262d?style=flat-square&logo=openai&logoColor=58a6ff" alt="Codex" />
-      <img src="https://img.shields.io/badge/Anthropic%20Claude-21262d?style=flat-square&logo=anthropic&logoColor=58a6ff" alt="Anthropic Claude" />
-      <img src="https://img.shields.io/badge/Gemini-21262d?style=flat-square&logo=googlegemini&logoColor=58a6ff" alt="Gemini" />
-      <img src="https://img.shields.io/badge/Cursor-21262d?style=flat-square&logo=cursor&logoColor=58a6ff" alt="Cursor" />
-      <img src="https://img.shields.io/badge/Antigravity-21262d?style=flat-square" alt="Antigravity" />
-      <img src="https://img.shields.io/badge/Eigent-21262d?style=flat-square" alt="Eigent" />
-      <img src="https://img.shields.io/badge/Qwen%20Code-21262d?style=flat-square" alt="Qwen Code" />
-      <img src="https://img.shields.io/badge/Kimi%20Code-21262d?style=flat-square" alt="Kimi Code" />
-      <img src="https://img.shields.io/badge/Hugging%20Face-21262d?style=flat-square&logo=huggingface&logoColor=58a6ff" alt="Hugging Face" />
-      <img src="https://img.shields.io/badge/LangChain-21262d?style=flat-square&logo=langchain&logoColor=58a6ff" alt="LangChain" />
-      <img src="https://img.shields.io/badge/LlamaIndex-21262d?style=flat-square" alt="LlamaIndex" />
-      <img src="https://img.shields.io/badge/CrewAI-21262d?style=flat-square" alt="CrewAI" />
-      <img src="https://img.shields.io/badge/AutoGen-21262d?style=flat-square" alt="AutoGen" />
-    </td>
-  </tr>
-  <tr>
-    <td width="150" valign="top"><b>Databases and APIs</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&logo=postgresql&logoColor=58a6ff" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/MySQL-21262d?style=flat-square&logo=mysql&logoColor=58a6ff" alt="MySQL" />
-      <img src="https://img.shields.io/badge/MongoDB-21262d?style=flat-square&logo=mongodb&logoColor=58a6ff" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Firebase-21262d?style=flat-square&logo=firebase&logoColor=58a6ff" alt="Firebase" />
-      <img src="https://img.shields.io/badge/Redis-21262d?style=flat-square&logo=redis&logoColor=58a6ff" alt="Redis" />
-      <img src="https://img.shields.io/badge/Pinecone-21262d?style=flat-square&logo=pinecone&logoColor=58a6ff" alt="Pinecone" />
-      <img src="https://img.shields.io/badge/ChromaDB-21262d?style=flat-square" alt="ChromaDB" />
-      <img src="https://img.shields.io/badge/Milvus-21262d?style=flat-square&logo=milvus&logoColor=58a6ff" alt="Milvus" />
-      <img src="https://img.shields.io/badge/REST-21262d?style=flat-square" alt="REST" />
-      <img src="https://img.shields.io/badge/GraphQL-21262d?style=flat-square&logo=graphql&logoColor=58a6ff" alt="GraphQL" />
-      <img src="https://img.shields.io/badge/gRPC-21262d?style=flat-square" alt="gRPC" />
-      <img src="https://img.shields.io/badge/JWT-21262d?style=flat-square&logo=jsonwebtokens&logoColor=58a6ff" alt="JWT" />
-      <img src="https://img.shields.io/badge/OAuth%202.0-21262d?style=flat-square" alt="OAuth 2.0" />
-      <img src="https://img.shields.io/badge/CORS-21262d?style=flat-square" alt="CORS" />
-      <img src="https://img.shields.io/badge/Twilio-21262d?style=flat-square&logo=twilio&logoColor=58a6ff" alt="Twilio" />
-    </td>
-  </tr>
-  <tr>
-    <td width="150" valign="top"><b>SQA and Test Automation</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Selenium-21262d?style=flat-square&logo=selenium&logoColor=58a6ff" alt="Selenium" />
-      <img src="https://img.shields.io/badge/Cypress-21262d?style=flat-square&logo=cypress&logoColor=58a6ff" alt="Cypress" />
-      <img src="https://img.shields.io/badge/Playwright-21262d?style=flat-square&logo=playwright&logoColor=58a6ff" alt="Playwright" />
-      <img src="https://img.shields.io/badge/Postman-21262d?style=flat-square&logo=postman&logoColor=58a6ff" alt="Postman" />
-      <img src="https://img.shields.io/badge/Jira-21262d?style=flat-square&logo=jira&logoColor=58a6ff" alt="Jira" />
-    </td>
-  </tr>
-  <tr>
-    <td width="150" valign="top"><b>Cybersecurity</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Kali%20Linux-21262d?style=flat-square&logo=kalilinux&logoColor=58a6ff" alt="Kali Linux" />
-      <img src="https://img.shields.io/badge/Parrot%20OS-21262d?style=flat-square&logo=parrotsecurity&logoColor=58a6ff" alt="Parrot OS" />
-      <img src="https://img.shields.io/badge/Burp%20Suite-21262d?style=flat-square&logo=burpsuite&logoColor=58a6ff" alt="Burp Suite" />
-      <img src="https://img.shields.io/badge/OWASP%20ZAP-21262d?style=flat-square&logo=owasp&logoColor=58a6ff" alt="OWASP ZAP" />
-      <img src="https://img.shields.io/badge/Nmap-21262d?style=flat-square" alt="Nmap" />
-      <img src="https://img.shields.io/badge/Wireshark-21262d?style=flat-square&logo=wireshark&logoColor=58a6ff" alt="Wireshark" />
-      <img src="https://img.shields.io/badge/Metasploit-21262d?style=flat-square&logo=metasploit&logoColor=58a6ff" alt="Metasploit" />
-      <img src="https://img.shields.io/badge/Splunk-21262d?style=flat-square&logo=splunk&logoColor=58a6ff" alt="Splunk" />
-      <img src="https://img.shields.io/badge/LogRhythm-21262d?style=flat-square" alt="LogRhythm" />
-      <img src="https://img.shields.io/badge/Hashcat-21262d?style=flat-square" alt="Hashcat" />
-    </td>
-  </tr>
-  <tr>
-    <td width="150" valign="top"><b>Version Control, Deployment, MLOps</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Git-21262d?style=flat-square&logo=git&logoColor=58a6ff" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-21262d?style=flat-square&logo=github&logoColor=58a6ff" alt="GitHub" />
-      <img src="https://img.shields.io/badge/GitLab-21262d?style=flat-square&logo=gitlab&logoColor=58a6ff" alt="GitLab" />
-      <img src="https://img.shields.io/badge/Vercel-21262d?style=flat-square&logo=vercel&logoColor=58a6ff" alt="Vercel" />
-      <img src="https://img.shields.io/badge/Render-21262d?style=flat-square&logo=render&logoColor=58a6ff" alt="Render" />
-      <img src="https://img.shields.io/badge/Railway-21262d?style=flat-square&logo=railway&logoColor=58a6ff" alt="Railway" />
-      <img src="https://img.shields.io/badge/Heroku-21262d?style=flat-square&logo=heroku&logoColor=58a6ff" alt="Heroku" />
-      <img src="https://img.shields.io/badge/Netlify-21262d?style=flat-square&logo=netlify&logoColor=58a6ff" alt="Netlify" />
-      <img src="https://img.shields.io/badge/MLflow-21262d?style=flat-square&logo=mlflow&logoColor=58a6ff" alt="MLflow" />
-      <img src="https://img.shields.io/badge/Weights%20and%20Biases-21262d?style=flat-square&logo=weightsandbiases&logoColor=58a6ff" alt="Weights and Biases" />
-      <img src="https://img.shields.io/badge/BentoML-21262d?style=flat-square&logo=bentoml&logoColor=58a6ff" alt="BentoML" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
-</div>
-
-<h2 align="center">Expertise</h2>
-
-| Area | Skills |
+| Area | Relevant tools and practices |
 | :--- | :--- |
-| **Software Engineering** | OOP, Data Structures and Algorithms, SOLID, Clean Code, Design Patterns, Memory Management |
-| **Systems and Architecture** | Microservices, Event-Driven Architecture, HTTP/HTTPS, WebSockets, Multithreading, Async and Concurrency, Race-Condition Handling |
-| **Data and API Engineering** | Database Indexing and Sharding, Vector Search and RAG Pipelines, REST / GraphQL / gRPC API Design |
-| **AI and LLM Engineering** | Prompt Engineering (Few-Shot, CoT, ReAct), PEFT / LoRA / QLoRA Fine-Tuning, AI-Assisted Development, Basic MLOps |
-| **Application and AI Security** | OWASP Top 10, AI Guardrails, Prompt-Injection Defense, Data-Leakage Prevention |
-| **Software Quality Assurance** | Test Case and Test Plan Design; Functional, Regression, Smoke, API, Exploratory and Security Testing; Bug Life Cycle; SDLC, STLC, Agile/Scrum, TDD, CI/CD |
-| **Cybersecurity** | Security Audits, Vulnerability Assessment, Penetration Testing, CTF Competitions |
-| **Collaboration and Delivery** | Git Branching, Merging and Pull-Request Workflows |
+| **Quality Engineering** | Python, pytest, Playwright, Postman, functional and regression testing, API validation, exploratory testing, defect documentation |
+| **Backend &amp; APIs** | Python, FastAPI, Go, REST APIs, SQL, PostgreSQL, request validation, error handling |
+| **Web Development** | React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS |
+| **Application &amp; LLM Security** | OWASP Top 10 concepts, trust-boundary testing, prompt-injection test scenarios, data-leakage checks, access-control boundary evaluation |
+| **Development Workflow** | Git, GitHub, pull requests, CI workflows, local-first development, technical documentation |
+
+> Skills listed above reflect tools and concepts represented in my coursework and portfolio work. Project README files are the best source for each repository's exact implementation status.
 
 <br/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Section divider" />
 </div>
 
-<h2 align="center">Career Interests &amp; Open Roles</h2>
+<h2 align="center">Selected Portfolio Projects</h2>
 
-| Domain | Roles |
+| Project | What it demonstrates | Status / notes |
+| :--- | :--- | :--- |
+| [**AssertLane**](https://github.com/tracolerd/assertlane) | QA evidence workflow for test cases, execution runs, and imported results; includes a FastAPI backend, pytest API tests, and a Playwright demo test. | MVP / preview; review README for deployment and security limitations. |
+| [**Schema Drift Observatory**](https://github.com/tracolerd/schema-drift-observatory) | Go CLI comparing baseline and candidate OpenAPI specifications using a documented subset of compatibility rules; can return an exit code for CI checks. | Early MVP; six selected rules, not a complete OpenAPI compatibility analyzer. |
+| [**TrustBoundary Lab**](https://github.com/tracolerd/trustboundary-lab) | Mock-first workbench for testing LLM trust boundaries, including hostile prompts, untrusted retrieved content, sensitive canaries, and tool authorization scenarios. | Functional local MVP; see documented evaluation scope and limitations. |
+| [**FixTrail Security**](https://github.com/tracolerd/fixtrail-security) | Vulnerability-remediation workflow prototype for assets, findings, scanner imports, evidence, and retesting. | Local MVP; not represented as production-ready security software. |
+| [**WireTally**](https://github.com/tracolerd/wiretally) | Local-first PCAP/PCAPNG analysis prototype with a Python CLI, a local FastAPI endpoint, and a React UI for rule-based network observations. | Early prototype; README notes the current testing and resource-limit gaps. |
+
+<br/>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Section divider" />
+</div>
+
+<h2 align="center">Role Interests</h2>
+
+| Priority | Roles |
 | :--- | :--- |
-| **Software Quality** | SQA Engineer, QA Analyst, Test Automation Engineer, SDET |
-| **Cloud Security** | Cloud Security Engineer, SOC Analyst, Security Analyst, DevSecOps Engineer |
-| **AI & Automation** | Virtual Assistant, AI Automation |
-| **Industry Focus** | FinTech, ERP Systems, Healthcare, Public Sector, Enterprise |
+| **Primary** | Junior QA Automation Engineer, QA Analyst, Software Tester, API Test Engineer, Associate SDET |
+| **Secondary** | Junior LLM Evaluation / AI Quality Engineer, AI Test Analyst, Trust &amp; Safety Evaluation Contractor |
+| **Additional** | Junior Python / Backend Developer, Junior Full-Stack Developer, Security Tooling Developer, Junior Application Security Analyst |
+
+I prioritize roles whose experience requirements match my current level and whose hiring terms explicitly permit remote work from Bangladesh. I do not assume that a role labelled "remote" is automatically open worldwide.
 
 <br/>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
-</div>
 
 <h2 align="center">GitHub Analytics</h2>
 
