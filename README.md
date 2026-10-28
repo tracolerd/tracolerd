@@ -242,6 +242,537 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
 </div>
 
+<h2 align="center">Projects</h2>
+
+<p align="center"><i>Selected projects, with the problem each one addresses, its main features and its stack.<br/>Status notes follow each repository's own documentation.</i></p>
+
+<!--
+  One table per project, all 100 percent wide, with a fixed narrow label column.
+  Each card stacks cleanly on mobile, tablet and PC. To add a project, copy one table
+  and edit its text. Stack items use inline code so they adapt to light and dark themes.
+-->
+
+<h3 align="center">Cybersecurity and Defensive Engineering</h3>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/ThreatLens-AI">ThreatLens AI</a> &nbsp;|&nbsp; Multi-signal scanner for suspicious URLs</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>A malicious link is hard to judge by eye. This gives users a quick, explainable second opinion on a page before they trust it, combining rule-based, threat-intelligence and AI signals.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>One-click scan of the active browser tab through a Manifest V3 Chrome extension</li>
+        <li>Lexical URL analysis: domain structure, IP presence, typosquatting keywords and URL length</li>
+        <li>VirusTotal lookup for domains already reported as malicious</li>
+        <li>AI contextual analysis that returns a 0 to 100 threat score with reasons</li>
+        <li>SAFE, SUSPICIOUS or DANGEROUS verdict in a dark popup dashboard</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Python</code> <code>FastAPI</code> <code>Uvicorn</code> <code>Chrome Extension (MV3)</code> <code>JavaScript</code> <code>VirusTotal API</code> <code>OpenAI API</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Educational prototype for local use. Results are a triage signal for human review.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/ThreatLens-AI">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/Phishing-Email-Classifier">Phishing Email Classifier</a> &nbsp;|&nbsp; Machine-learning pipeline for phishing email detection</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>No single indicator separates phishing from legitimate mail: newsletters carry many links and genuine emails carry attachments. The classifier weighs message text together with security signals instead of trusting one rule.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Classifies an email as PHISHING or LEGITIMATE with a probability and a HIGH, MEDIUM or LOW confidence label</li>
+        <li>TF-IDF text features (unigrams and bigrams) combined with URL count, attachment and SPF-failure signals</li>
+        <li>Custom scikit-learn transformers in one serialized pipeline, so training and inference share identical preprocessing</li>
+        <li>Random Forest model with balanced class weights</li>
+        <li>CLI with JSON and interactive modes that returns human-readable explanations</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Python</code> <code>scikit-learn</code> <code>pandas</code> <code>NumPy</code> <code>BeautifulSoup</code> <code>lxml</code> <code>Joblib</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Defensive ML prototype trained on a synthetic dataset, so its scores are not a real-world benchmark.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/Phishing-Email-Classifier">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/wiretally">WireTally</a> &nbsp;|&nbsp; Network traffic investigation workbench for PCAP files</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>Packet captures hold the evidence, but reading them packet by packet is slow. WireTally produces a repeatable first-pass summary of flows and rule-based leads, each with the evidence behind it.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Validates local PCAP and PCAPNG files (type, size limit, empty files) before analysis</li>
+        <li>Extracts packet metadata with TShark and aggregates bidirectional TCP and UDP flows</li>
+        <li>Two transparent detection rules: high-volume transfers and flows on selected suspicious ports</li>
+        <li>Timestamped JSON evidence report that includes observed DNS query names</li>
+        <li>Three interfaces: CLI, local FastAPI endpoint and a React and TypeScript UI</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Python</code> <code>TShark</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>Vite</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Functional prototype. Local-first metadata analysis; findings are investigation leads, not verdicts.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/wiretally">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/casewire-soc">Casewire SOC</a> &nbsp;|&nbsp; SOC case-management workspace</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>Security events are only useful when they are grouped by explainable rules and carried through an investigation. Casewire demonstrates that path end to end: event, alert, incident case and response.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Normalized event intake persisted in PostgreSQL</li>
+        <li>Deterministic brute-force rule: three or more failed logins from one source IP within five minutes</li>
+        <li>Alert-to-case triage with status, severity and owner tracking</li>
+        <li>Analyst notes, response tasks and a case timeline</li>
+        <li>React dashboard for working cases</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Java 21</code> <code>Spring Boot</code> <code>Spring Data JPA</code> <code>PostgreSQL</code> <code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Tailwind CSS</code> <code>JUnit 5</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Completed local MVP built on synthetic data.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/casewire-soc">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/fixtrail-security">FixTrail Security</a> &nbsp;|&nbsp; Vulnerability remediation tracking from discovery to retest</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>Vulnerability findings often stall between discovery and a verified fix. FixTrail keeps every finding tied to an asset, an owner, evidence and a retest result.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Asset inventory with findings from manual entry, JSON files and Nmap XML imports</li>
+        <li>Repeat observations recorded against the same finding instead of creating duplicates</li>
+        <li>JWT authentication with four roles: Admin, SecurityAnalyst, RemediationOwner and ReadOnly</li>
+        <li>Remediation task assignment, evidence references, retest outcomes and audit events</li>
+        <li>Angular client with login, asset, finding and import screens</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>C#</code> <code>ASP.NET Core (.NET 8)</code> <code>Entity Framework Core</code> <code>PostgreSQL</code> <code>ASP.NET Identity</code> <code>JWT</code> <code>Angular 21</code> <code>TypeScript</code> <code>xUnit</code> <code>GitHub Actions</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Local MVP with CI covering the build, unit tests and the Angular production build.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/fixtrail-security">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/trustboundary-lab">TrustBoundary Lab</a> &nbsp;|&nbsp; Security evaluation workbench for LLM applications</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>LLM applications fail at their trust boundaries: hostile prompts, untrusted retrieved documents and unauthorized tool calls. This lab makes those tests repeatable and the evidence inspectable.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Versioned JSON scenarios: direct injection, indirect injection, canary leakage, RAG poisoning simulation and unauthorized tool use</li>
+        <li>Deterministic mock provider for repeatable runs, with an optional Gemini provider</li>
+        <li>Assertions: exact-string exclusion, regex checks and heuristic checks reported as inconclusive</li>
+        <li>Per-scenario JSON evidence and an aggregate summary</li>
+        <li>FastAPI service and React dashboard, with pytest and CI on every push</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Python</code> <code>Pydantic</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>Vite</code> <code>pytest</code> <code>Gemini API</code> <code>GitHub Actions</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Functional local MVP. The hosted page is a frontend preview; the evaluation API runs locally.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/trustboundary-lab">Repository</a> &nbsp;|&nbsp; <a href="https://trust-boundary-lab.netlify.app/">Live frontend preview</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<h3 align="center">Quality Engineering and Backend Reliability</h3>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/assertlane">AssertLane</a> &nbsp;|&nbsp; Test evidence and release-readiness platform</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>Test activity is scattered, and a red result does not say whether the product or the automation failed. AssertLane records results as evidence tied to test cases and runs, to support release review.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Projects, suites, test cases, runs and results through a documented REST API</li>
+        <li>Result states that separate product failures from automation or environment errors</li>
+        <li>Case versioning: each result records the version of the case that was executed</li>
+        <li>Result import, including a bridge from Playwright JSON reports</li>
+        <li>Alembic migrations, pytest API tests and a React and TypeScript dashboard</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Python</code> <code>FastAPI</code> <code>SQLAlchemy</code> <code>SQLite</code> <code>Alembic</code> <code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Tailwind CSS</code> <code>Playwright</code> <code>pytest</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>MVP preview. The frontend is hosted; the API runs locally.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/assertlane">Repository</a> &nbsp;|&nbsp; <a href="https://assertlane.netlify.app/">Live frontend preview</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/schema-drift-observatory">Schema Drift Observatory</a> &nbsp;|&nbsp; Breaking-change detection for OpenAPI contracts</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>An API specification can stay valid and still break its consumers: a removed operation or a new required parameter is enough. This tool catches those changes before release.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Compares a baseline and a candidate OpenAPI file</li>
+        <li>Six rules (SDO-001 to SDO-006) classify findings as breaking, potentially breaking or non-breaking</li>
+        <li>Each finding carries a rule ID, location, impact and remediation guidance</li>
+        <li>Text or JSON output with a configurable fail-on policy that sets the CI exit code</li>
+        <li>Vue 3 dashboard prototype that displays a sample report</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Go</code> <code>libopenapi</code> <code>Vue 3</code> <code>TypeScript</code> <code>Vite</code> <code>GitHub Actions</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Early MVP covering a documented subset of compatibility rules, with CI.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/schema-drift-observatory">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/outboxworks">OutboxWorks</a> &nbsp;|&nbsp; Reliable webhook delivery service</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>A direct webhook call is lost when the receiver is down or the response never arrives. OutboxWorks stores events durably, delivers them reliably and makes every failure visible.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Transactional enqueue with per-endpoint idempotency keys</li>
+        <li>HMAC-SHA256 signed payloads with timestamps for receiver-side verification</li>
+        <li>Worker claiming with PostgreSQL SKIP LOCKED, exponential retries and a dead-letter state</li>
+        <li>Admin-authorized replay with audit events, and AES-256-GCM encrypted endpoint secrets</li>
+        <li>SSRF checks on destinations, separate Admin and Producer tokens and a monitoring dashboard</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>TypeScript</code> <code>Node.js 24</code> <code>Express 5</code> <code>PostgreSQL 16</code> <code>Zod</code> <code>GitHub Actions</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Hardened portfolio MVP with CI and a PostgreSQL-backed test suite.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/outboxworks">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<h3 align="center">AI, Machine Learning and MLOps</h3>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/model-release-observatory">Model Release Observatory</a> &nbsp;|&nbsp; Experiment tracking, release evidence and drift signals</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>A trained model is not yet a release. Teams need to know which data and configuration produced it, whether it passed a policy, and how it behaves once served. This project records that evidence.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Training runs tracked in MLflow with parameters, metrics, dataset fingerprint and model artifact</li>
+        <li>Run comparison and a threshold-based release report (F1 and recall of at least 0.95)</li>
+        <li>Statistical drift check using the Kolmogorov-Smirnov test</li>
+        <li>FastAPI inference endpoint and a latency benchmark reporting P50, P90 and P99</li>
+        <li>Reports stored as inspectable JSON files</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Python</code> <code>scikit-learn</code> <code>MLflow</code> <code>SciPy</code> <code>pandas</code> <code>FastAPI</code> <code>pytest</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Completed local MLOps MVP on a public demo dataset. Not intended for clinical use.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/model-release-observatory">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<h3 align="center">Mobile Applications</h3>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/fieldaudit">FieldAudit</a> &nbsp;|&nbsp; Offline-first Android inspection app</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>Inspectors often work without reliable connectivity, and lost work or silent sync failures are unacceptable. FieldAudit keeps drafts on the device and makes sync outcomes explicit.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Offline-first inspection drafts stored locally with Room</li>
+        <li>Background sync through WorkManager when a network is available, with exponential backoff</li>
+        <li>Sync responses classified as success, conflict, permanent error or retryable failure</li>
+        <li>Revision-aware FastAPI sync endpoint with safe retry behavior</li>
+        <li>Jetpack Compose interface and separate CI workflows for Android and the backend</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Kotlin</code> <code>Jetpack Compose</code> <code>Room</code> <code>WorkManager</code> <code>Ktor</code> <code>Python</code> <code>FastAPI</code> <code>GitHub Actions</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Prototype under active hardening. Not intended for real inspection data yet.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/fieldaudit">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/Zero-Trap---Android-App">Zero Trap</a> &nbsp;|&nbsp; Emergency help and location sharing app</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Problem</b></td>
+    <td>In an emergency, asking for help and sharing a location must take seconds, and nearby people should be able to see the request and respond. Zero Trap connects people who need help with people who can give it.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Emergency help requests with active, accepted, completed and cancelled states</li>
+        <li>Location sharing on Google Maps and discovery of nearby requests</li>
+        <li>Real-time, timestamped chat between requester and helper</li>
+        <li>Push notifications, Firebase Authentication, profiles and helping scores</li>
+        <li>Privacy policy, terms, and user report and block foundations</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>React Native</code> <code>Expo SDK 52</code> <code>JavaScript</code> <code>Firebase Authentication</code> <code>Cloud Firestore</code> <code>Firebase Storage</code> <code>React Navigation</code> <code>React Native Maps</code> <code>EAS</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Android app in active development. Production hardening and a security review are on the roadmap.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/Zero-Trap---Android-App">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<h3 align="center">Games and Programming Fundamentals</h3>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/neon-trace-dhaka-2047">NEON//TRACE: Dhaka 2047</a> &nbsp;|&nbsp; 3D cyber-investigation thriller built in Godot</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Concept</b></td>
+    <td>A third-person cyber-investigation thriller set in a fictionalized near-future Dhaka. It is built systems-first, so reusable gameplay modules exist before the city is built around them.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Third-person controller with sprint, crouch, jump and a spring-arm camera</li>
+        <li>Scanner, evidence collection and a terminal hacking framework</li>
+        <li>Stealth with escalating security states and guard patrol detection foundations</li>
+        <li>Mission, objective and checkpoint management with save and load</li>
+        <li>Branching ending framework and an extraction objective</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Godot 4</code> <code>GDScript</code> <code>Signal-based architecture</code> <code>Data-driven design</code> <code>Android export</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Playable vertical-slice prototype in progress, with a published Android debug build.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/neon-trace-dhaka-2047">Repository</a> &nbsp;|&nbsp; <a href="https://github.com/tracolerd/neon-trace-dhaka-2047/releases/tag/v0.1.0-android-debug">Android debug APK</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <th colspan="2" align="left"><a href="https://github.com/tracolerd/Library-Book-Management-System">Library Book Management System</a> &nbsp;|&nbsp; Console application built around core OOP principles</th>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Purpose</b></td>
+    <td>A practical library simulation used to apply the four core object-oriented principles in Java: abstraction, encapsulation, inheritance and polymorphism.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Features</b></td>
+    <td>
+      <ul>
+        <li>Academic books and storybooks built on an abstract Book class</li>
+        <li>Borrow and return operations with availability checks</li>
+        <li>Views for all, available and borrowed books</li>
+        <li>Automatically generated unique book IDs</li>
+        <li>Custom BookNotAvailableException and input validation in an interactive console menu</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Stack</b></td>
+    <td><code>Java</code> <code>OOP</code> <code>Abstract classes</code> <code>Polymorphism</code> <code>ArrayList</code> <code>Custom exceptions</code></td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Status</b></td>
+    <td>Completed educational console application using in-memory storage.</td>
+  </tr>
+  <tr>
+    <td width="90" valign="top"><b>Links</b></td>
+    <td><a href="https://github.com/tracolerd/Library-Book-Management-System">Repository</a></td>
+  </tr>
+</table>
+
+<br/>
+
+<br/>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
+</div>
+
+
 <h2 align="center">Career Interests &amp; Open Roles</h2>
 
 | Domain | Roles |
