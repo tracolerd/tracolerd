@@ -244,7 +244,6 @@
 
 <h2 align="center">Projects</h2>
 
-<p align="center"><i>Selected projects, with the problem each one addresses, its main features and its stack.<br/>Status notes follow each repository's own documentation.</i></p>
 
 <!--
   One table per project, all 100 percent wide, with a fixed narrow label column.
