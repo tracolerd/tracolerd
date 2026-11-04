@@ -242,8 +242,27 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" alt="Divider" />
 </div>
 
-<h2 align="center">Projects</h2>
+<!--
+  PROJECTS (collapsible)
 
+  The whole Projects section lives inside one <details> block.
+  - It starts COLLAPSED. Visitors click the "Projects" heading to expand it,
+    and click the same heading again to collapse it.
+  - To make it start EXPANDED, change <details> to <details open>.
+
+  HOW TO ADD A NEW PROJECT IN THE FUTURE:
+  1. Copy any existing project table (the one that starts with table width 100 percent
+     and ends with the closing table tag) together with the br line after it.
+  2. Paste it inside the matching category below (or add a new category heading).
+  3. Edit the text. Keep everything BEFORE the closing details tag at the bottom.
+  Do not paste a new project outside of the details block, or it will stay visible.
+
+  IMPORTANT: keep the blank line right after the closing summary tag and the blank line
+  right before the closing details tag. GitHub needs them to render the content.
+-->
+
+<details>
+<summary><h2 align="center">Projects &nbsp;<sub>(click to expand / collapse)</sub></h2></summary>
 
 <!--
   One table per project, all 100 percent wide, with a fixed narrow label column.
@@ -764,6 +783,12 @@
 </table>
 
 <br/>
+
+<!-- ADD NEW PROJECTS ABOVE THIS LINE (inside the details block) -->
+
+<p align="center"><i>Click the Projects heading above to collapse this section.</i></p>
+
+</details>
 
 <br/>
 
