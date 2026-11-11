@@ -17,7 +17,7 @@
     <text x="40" y="34" class="lab">BANGLADESH RANK  |  FOLLOWERS</text>
     <line class="bar" x1="40" y1="44" x2="110" y2="44" stroke="#58a6ff" stroke-width="2"/>
     <text x="40" y="88"><tspan class="num">#169</tspan><tspan class="of" dx="10"> of 976</tspan></text>
-    <text x="40" y="108" class="sub">385 followers</text>
+    <text x="40" y="108" class="sub">384 followers</text>
   </g>
   <g class="in" style="animation-delay:0.45s">
     <text x="440" y="34" class="lab">BANGLADESH RANK  |  ACTIVITY</text>
